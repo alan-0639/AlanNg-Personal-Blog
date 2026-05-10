@@ -17,9 +17,9 @@ import sidebarjelly102 from './sidebar/HAWKZ-jelly102-CN.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/HAWKZ-KEYBOARD/',
-  title: "Custom Keyboard",
-  description: "機械鍵盤愛好者的樂園",
+  base: '/AlanNg-Personal-Blog',
+  title: "AlanNg-Personal-Blog",
+  description: "機械鍵盤愛好者",
   
 
  // srcDir: 'zh-HK', // 明确指定源文件目录
