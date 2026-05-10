@@ -4,7 +4,7 @@
     <VPLayout />
     
     <!-- 微信组件 -->
-    <WeChat />
+    <WeChat />    
   </div>
 </template>
 

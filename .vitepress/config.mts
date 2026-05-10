@@ -2,16 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // 导入导航栏配置
 import navZhHK from './nav/zh-HK.mts'
-import navZhCN from './nav/zh-CN.mts'
-import navEnUS from './nav/en-US.mts'
-import navHAWKZ from './nav/HAWKZ-jelly102-CN.mts'
+
 
 
 // 导入侧边栏配置
 import sidebarZhHK from './sidebar/zh-HK.mts'
-import sidebarZhCN from './sidebar/zh-CN.mts'
-import sidebarEnUS from './sidebar/en-US.mts'
-import sidebarjelly102 from './sidebar/HAWKZ-jelly102-CN.mts'
+
 
 
 
@@ -30,7 +26,7 @@ export default defineConfig({
       label: '繁體中文 (香港)',
       lang: 'zh-HK',
 
-      link: '/zh-HK', 
+      link: '/', 
 
       themeConfig: {
         nav: navZhHK,
@@ -74,109 +70,14 @@ export default defineConfig({
       }
     },
 
-    // 简体中文
-    'zh-CN': {
-      label: '简体中文',
-      lang: 'zh-CN',
-      link: '/zh-CN',
-      themeConfig: {
-        nav: navZhCN,
-           sidebar: {
-      '/zh-CN/': sidebarZhCN,                // 默认路径使用原来的简体中文侧边栏
-      '/zh-CN/HAWKZ-jelly102-CN/': sidebarjelly102  // 当访问 /HAWKZ-jelly102/ 下的页面时，使用新的侧边栏
-    },
-        
-        // 简体中文的界面文本
-        docFooter: {
-          prev: '上一页',
-          next: '下一页'
-        },
-        outline: {
-          label: '本页目录'
-        },
-        lastUpdated: {
-          text: '最后更新于'
-        },
-        darkModeSwitchLabel: '外观',
-        sidebarMenuLabel: '菜单',
-        returnToTopLabel: '返回顶部',
-        
-        // 搜索配置
-        search: {
-          provider: 'local',
-          options: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                }
-              }
-            }
-          }
-        }
-      }
-    },
 
 
 
-    // 英文
-    'en-US': {
-      label: 'English',
-      lang: 'en-US',
-      link: '/en-US/',
-      themeConfig: {
-        nav: navEnUS,
-        sidebar: sidebarEnUS,
-        
-        // 英文的界面文本
-        docFooter: {
-          prev: 'Previous',
-          next: 'Next'
-        },
-        outline: {
-          label: 'On this page'
-        },
-        lastUpdated: {
-          text: 'Last updated'
-        },
-        darkModeSwitchLabel: 'Appearance',
-        sidebarMenuLabel: 'Menu',
-        returnToTopLabel: 'Back to top',
-        
-        // 搜索配置
-        search: {
-          provider: 'local',
-          options: {
-            translations: {
-              button: {
-                buttonText: 'Search',
-                buttonAriaLabel: 'Search'
-              },
-              modal: {
-                noResultsText: 'No results for',
-                resetButtonTitle: 'Reset search',
-                footer: {
-                  selectText: 'to select',
-                  navigateText: 'to navigate'
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  },
+
 
   // 全局主题配置
   themeConfig: {
-    logo:{ light: '/LOGO HAWKZ_black.png', dark: '/LOGO HAWKZ_white.png' },
+    logo:{ light: '/個人卡通頭像.png', dark: '/個人卡通頭像.png' },
     
     // 社交链接
     socialLinks: [
@@ -199,4 +100,5 @@ export default defineConfig({
   outline: {
     level: [2, 3]
   }
+}
 })

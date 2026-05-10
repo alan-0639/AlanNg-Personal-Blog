@@ -20,7 +20,7 @@ export default {
         items: [
           { text: '', 
             items:[
-              { text: '799', 
+              { text: '', 
             items:[
               {  }
             ] }
@@ -59,7 +59,7 @@ export default {
             items:[
           { text: '', 
             items:[
-              { text: '499',
+              { text: '',
             items:[
               {  }
             ] }
@@ -76,7 +76,7 @@ export default {
         items: [
           { text: '', 
             items:[
-              { text: '1699', 
+              { text: '', 
             items:[
               {  }
             ] }
