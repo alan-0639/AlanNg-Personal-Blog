@@ -7,7 +7,7 @@ import navZhHK from './nav/zh-HK.mts'
 
 // 导入侧边栏配置
 import sidebarZhHK from './sidebar/zh-HK.mts'
-
+import sidebardimsum102HK from './sidebar/HAWKZ-dim-sum-102-HK.mts'
 
 
 
@@ -15,7 +15,7 @@ import sidebarZhHK from './sidebar/zh-HK.mts'
 export default defineConfig({
   base: '/AlanNg-Personal-Blog',
   title: "AlanNg-Personal-Blog",
-  description: "機械鍵盤愛好者",
+  description: "AlanNg Blog",
   
 
  // srcDir: 'zh-HK', // 明确指定源文件目录
@@ -23,14 +23,17 @@ export default defineConfig({
   locales: {
     // 香港繁体中文作为默认语言 (root)
     root: {
-      label: '繁體中文 (香港)',
+      label: '地區：香港',
       lang: 'zh-HK',
 
       link: '/', 
 
       themeConfig: {
         nav: navZhHK,
-        sidebar: sidebarZhHK,
+        sidebar: {
+      '/zh-HK/': sidebarZhHK,                // 默认路径使用原来的简体中文侧边栏
+      '/zh-HK/HAWKZ-dim-sum-102/': sidebardimsum102HK  // 当访问 /HAWKZ-dim-sum-102/ 下的页面时，使用新的侧边栏
+    },
         
         // 香港繁体中文的界面文本
         docFooter: {
@@ -69,6 +72,7 @@ export default defineConfig({
         }
       }
     },
+    
 
 
 
@@ -88,7 +92,7 @@ export default defineConfig({
     footer: {
 
       //message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025 HAWKZ KEYBOARD'
+      copyright: 'Copyright © 2026 AlanNg Personal Blog'
     },
 
   },

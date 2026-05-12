@@ -1,5 +1,5 @@
 export default [{
-        text: '默認配置-强大功能 👀',link: '/zh-HK/默认配置',
+        text: '强大功能 👀',link: '/zh-HK/默认配置',
         items: [
           { text: '⭐-支持Vial實時改鍵', link: '',
             items:[
@@ -9,13 +9,33 @@ export default [{
             items:[
               { }
             ] },
-          { text: '🔋-大容量電池轉換模式', link: '',
+          { text: '🔋-4000mAh大容量電池轉換模式', link: '',
+            items:[
+              { }
+            ] },
+          { text: '💡-25款RGB燈效', link: '',
+            items:[
+              { }
+            ] },
+          { text: '🔧-碰珠快拆外殼', link: '',
+            items:[
+              { }
+            ] },
+          { text: '📼-GASKET結構', link: '',
+            items:[
+              { }
+            ] },
+          { text: '🌫-五層内部填充', link: '',
+            items:[
+              { }
+            ] },
+          { text: '🔋-10000mAh升級電池模塊', link: '',
             items:[
               { }
             ] }
         ]
       },{
-        text: '基礎訂製-膽芯與結構 👀',link: '/zh-HK/基础定制/键盘内胆',
+        text: '膽芯與結構 👀',link: '/zh-HK/基础定制/键盘内胆',
         items: [
           { text: '', 
             items:[
@@ -54,7 +74,7 @@ export default [{
             ] }
         ]
       },{
-            text: '基礎訂製-外殼 👀', link: '/zh-HK/基础定制/基础外壳',
+            text: '外殼 👀', link: '/zh-HK/基础定制/基础外壳',
             items:[
           { text: '', 
             items:[
@@ -64,14 +84,14 @@ export default [{
             ] }
             ]
           },
-              { text: '🎨-姓名、LOGO訂製 👀', link: '/zh-HK/基础定制/姓名定制',
+              { text: '🎨-姓名、LOGO 👀', link: '/zh-HK/基础定制/姓名定制',
             items:[
               { }
             ] }
             ] 
         
       },{
-        text: '高級訂製-全方位 👀',link: '/zh-HK/深度定制/全方位定制',
+        text: '高級-全方位 👀',link: '/zh-HK/深度定制/全方位定制',
         items: [
           { text: '', 
             items:[

@@ -1,6 +1,6 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-# http://localhost:5050/
+# http://localhost:5173/AlanNg-Personal-Blog/
 layout: home
 
 
@@ -14,11 +14,11 @@ hero:
 
   actions:
     - theme: brand
-      text: 製作過程
-      link: '/zh-HK/基础定制/键盘内胆/'
+      text: 創作歷程
+      link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計'
 
     - theme: brand
-      text: 成品簡介
+      text: 客制化之旅
       link: '/zh-HK/基础定制/键盘内胆/'
 
 
