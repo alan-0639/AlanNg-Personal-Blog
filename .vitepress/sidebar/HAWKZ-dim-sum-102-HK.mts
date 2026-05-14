@@ -1,29 +1,29 @@
 export default [{
 
-   text: '⌨PCB Design 👀',link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計',
+   text: '⌨️PCB Design 👀',link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計',
         items: [
-          { text: '⌨Schematic Diagram', link: '',
+          { text: '⌨️Schematic Diagram', link: '',
             items:[
               { }
             ]},
-          { text: '⌨PCB Layout', link: '',
+          { text: '⌨️PCB Layout', link: '',
             items:[
               { }
             ] },
-          { text: '⌨Li-ion Battery Power Mux Module', link: '',
+          { text: '⌨️Li-ion Battery Power Mux Module', link: '',
             items:[
               { }
             ] },
-          { text: '⌨Li-ion Battery Switch', link: '',
+          { text: '⌨️Li-ion Battery Switch', link: '',
             items:[
               { }
             ] }
 
         ]
       },{
-   text: '💻Firmware👀',link: '/zh-HK/HAWKZ-dim-sum-102/QMK固件代碼配置',
+   text: '💻Firmware 👀',link: '/zh-HK/HAWKZ-dim-sum-102/QMK固件代碼配置',
         items: [
-          { text: '💻QMK Guide👀',link: 'https://docs.qmk.fm/newbs', 
+          { text: '💻QMK Guide 👀',link: 'https://docs.qmk.fm/newbs', 
             items:[
               { text: '', 
             items:[
@@ -62,9 +62,51 @@ export default [{
           }
         ]
       },{
-   text: '📖 说明书 👀', link: '/zh-HK/HAWKZ-dim-sum-102/说明书',
+   text: '🐚3D Modelling 👀', link: '/zh-HK/HAWKZ-dim-sum-102/3D建模',
             items:[
-          { text: '', 
+          { text: '🐚Top case', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚Plate', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚plate foam', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚Switch Foam', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚Switch Socket Foam', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚Case Foam', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚Bottom case', 
             items:[
               { text: '',
             items:[
