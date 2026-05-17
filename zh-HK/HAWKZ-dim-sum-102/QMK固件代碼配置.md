@@ -52,7 +52,7 @@
 # 💻QMK技術文檔
 ::: raw
 <div class="button-container">
-  <a href="https://docs.qmk.fm/newbs/" target="_blank" class="custom-button">Go to QMK Documentation.</a>
+  <a href="https://docs.qmk.fm/newbs/" target="_blank" class="custom-button">Go to QMK Documentation</a>
 </div>
 
 
@@ -87,21 +87,21 @@
 }
 </style>
 
-##
-# Matrix
+## 💻Matrix
+
 
 
 ![](/102矩陣.png)
-##
-# Keymap
+
+## 💻Keymap
 
 ![](/102映射.png)
-##
-# 💻QMK Firmware Code
+
+## 💻QMK Code
 ![](/图片_2026-05-13_012224_208.png)
 
 
-##
-# 💻QMK Code Building
+
+## 💻QMK Code Building
 
 ![](/代碼與編譯.png)

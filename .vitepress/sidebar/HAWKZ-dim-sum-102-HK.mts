@@ -64,21 +64,28 @@ export default [{
       },{
    text: '🐚3D Modelling 👀', link: '/zh-HK/HAWKZ-dim-sum-102/3D建模',
             items:[
-          { text: '🐚Top case', 
+          { text: '🐚Top Case', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '🐚Plate', 
+          },{ text: '🐚Keycaps', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '🐚plate foam', 
+          },{ text: '🐚Plate & Stabilizers', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚plate Foam', 
             items:[
               { text: '',
             items:[
@@ -92,6 +99,13 @@ export default [{
               {  }
             ] }
             ]
+          },{ text: '🐚Matrix PCBA & Switches', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
           },{ text: '🐚Switch Socket Foam', 
             items:[
               { text: '',
@@ -99,14 +113,21 @@ export default [{
               {  }
             ] }
             ]
-          },{ text: '🐚Case Foam', 
+          },{ text: '🐚Bottom Case Foam', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '🐚Bottom case', 
+          },{ text: '🐚Bottom Case', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚Other accessory 3D models', 
             items:[
               { text: '',
             items:[

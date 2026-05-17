@@ -19,7 +19,7 @@ hero:
 
     - theme: brand
       text: 客制化之旅
-      link: '/zh-HK/基础定制/键盘内胆/'
+      link: '/zh-HK/默认配置/'
 
 
 
