@@ -22,8 +22,8 @@ hero:
       link: '/zh-HK/默认配置/'
 
     - theme: brand
-      text: 視頻
-      link: '/zh-HK/視頻/'
+      text: 視頻展示
+      link: '/zh-HK/視頻/視頻'
 
 
 
