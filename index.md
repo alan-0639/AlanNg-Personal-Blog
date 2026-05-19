@@ -21,6 +21,10 @@ hero:
       text: 客制化之旅
       link: '/zh-HK/默认配置/'
 
+    - theme: brand
+      text: 視頻
+      link: '/zh-HK/視頻/'
+
 
 
 
