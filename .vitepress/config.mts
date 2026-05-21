@@ -44,7 +44,7 @@ export default defineConfig({
         },
         outline: {
           label: '本頁目錄',
-          level: [2, 3]
+          level: [2,3]
         },
         lastUpdated: {
           text: '最後更新於'

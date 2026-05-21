@@ -1,29 +1,29 @@
 export default [{
 
-   text: '🎥Video ',link: '',
+   text: '⌨️PCB Design 👀',link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計',
         items: [
-          { text: '', link: '',
+          { text: '⌨️Schematic Diagram', link: '',
             items:[
               { }
             ]},
-          { text: '⌨️', link: '',
+          { text: '⌨️PCB Layout', link: '',
             items:[
               { }
             ] },
-          { text: '⌨️', link: '',
+          { text: '⌨️Li-ion Battery Power Mux Module', link: '',
             items:[
               { }
             ] },
-          { text: '⌨️', link: '',
+          { text: '⌨️Li-ion Battery Switch', link: '',
             items:[
               { }
             ] }
 
         ]
       },{
-   text: '',link: '',
+   text: '💻Firmware 👀',link: '/zh-HK/HAWKZ-dim-sum-102/QMK固件代碼配置',
         items: [
-          { text: '',link: '', 
+          { text: '💻QMK Guide 👀',link: 'https://docs.qmk.fm/newbs', 
             items:[
               { text: '', 
             items:[
@@ -31,19 +31,19 @@ export default [{
             ] }
             ]
           },
-          { text: '',
+          { text: '💻R2C Matrix',
             //collapsed:true,    /*下拉菜单*/ 
             items:[
               { text: ''  }
             ] 
           },
-          { text: '',
+          { text: '💻Keymap',
             //collapsed:true,    /*下拉菜单*/ 
             items:[
               { text: ''  }
             ] 
           },
-          { text: '',
+          { text: '💻QMK Firmware Code',
             //collapsed:true,    /*下拉菜单*/ 
             items:[
               { text: ''  },
@@ -53,7 +53,7 @@ export default [{
               { text: ''  }
             ] 
           },
-          { text: '',
+          { text: '💻QMK Code Build',
             //collapsed:true,   /*下拉菜单*/ 
             items:[
               { text: ''  },
@@ -62,72 +62,72 @@ export default [{
           }
         ]
       },{
-   text: '', link: '',
+   text: '🐚3D Modelling 👀', link: '/zh-HK/HAWKZ-dim-sum-102/3D建模',
             items:[
-          { text: '', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '', 
+          { text: '🐚Top Case', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '', 
+          },{ text: '🐚Keycaps', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '', 
+          },{ text: '🐚Plate & Stabilizers', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '', 
+          },{ text: '🐚plate Foam', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '', 
+          },{ text: '🐚Switch Foam', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '', 
+          },{ text: '🐚Matrix PCBA & Switches', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '', 
+          },{ text: '🐚Switch Socket Foam', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '', 
+          },{ text: '🐚Bottom Case Foam', 
             items:[
               { text: '',
             items:[
               {  }
             ] }
             ]
-          },{ text: '', 
+          },{ text: '🐚Bottom Case', 
+            items:[
+              { text: '',
+            items:[
+              {  }
+            ] }
+            ]
+          },{ text: '🐚Other accessory 3D models', 
             items:[
               { text: '',
             items:[
