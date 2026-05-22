@@ -13,11 +13,11 @@ hero:
       text: 創作歷程
       link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計'
     - theme: brand
-      text: 本作品介紹及拓展知識
-      link: '/zh-HK/默认配置/'
-    - theme: brand
       text: 視頻展示
       link: '/zh-HK/視頻/視頻展示'
+    - theme: brand
+      text: 本作品介紹及拓展知識
+      link: '/zh-HK/默认配置/'
 
 # 关键：禁用默认的 features 渲染
 features: []
@@ -48,13 +48,13 @@ features: []
       </div>
       <div class="tech-tags">
         <span>嘉立創EDA</span>
-        <span>J-Link</span>
+        <span>燒錄</span>
         <span>焊接實操</span>
       </div>
     </div>
 <!-- 3. 结构与机构整合 -->
     <div class="feature-card">
-      <h3>🧱結構 & 機構整合</h3>
+      <h3>🧱結構 & 機械整合</h3>
       <div class="feature-tagline">3D建模 · 2D圖 · 公差分析</div>
       <div class="feature-desc">
         Fusion360 3D建模、AutoCAD 2D出圖，結構DFA分析。對接CNC、3D列印、鈑金廠，確保PCB與外殼精準匹配，降低組裝干涉。
@@ -74,7 +74,7 @@ features: []
       </div>
       <div class="tech-tags">
         <span>BOM管理</span>
-        <span>ECO</span>
+        <span>ERP</span>
         <span>版本控制</span>
       </div>
     </div>
@@ -86,20 +86,20 @@ features: []
         設計驗證階段導入DFT，執行功能驗證（FVT）。協助客戶故障分析、技術諮詢，與工廠對接設計變更，提升品牌信賴度。
       </div>
       <div class="tech-tags">
-        <span>FVT</span>
-        <span>DFT</span>
+        <span>驗證</span>
+        <span>分析</span>
         <span>故障排除</span>
       </div>
     </div>
 <!-- 6. 多面手 / 工具链整合 -->
     <div class="feature-card">
-      <h3>🌐工具鏈 & 跨域整合</h3>
+      <h3>🌐多領域知識 & 跨域整合</h3>
       <div class="feature-tagline">系統操作 · 技術演示</div>
       <div class="feature-desc">
-        VS Code (韌體編輯)、Shopify庫存管理、遠端系統支援、技術演示。擅長整合軟硬體工具鏈，串接開發、測試與商務流程。
+        VS Code (內容編輯器)、Shopify庫存管理、遠端系統支援、技術演示。整合軟硬體工具鏈，串連開發、測試與商務流程。
       </div>
       <div class="tech-tags">
-        <span>VS Code</span>
+        <span>遠端系統支援</span>
         <span>Shopify</span>
         <span>技術演示</span>
       </div>
@@ -113,20 +113,20 @@ features: []
 
 <div class="cert-grid">
   <div class="cert-item">
-    <img src="/102_上蓋.png" alt="PCB設計專項技術證書">
+    <img src="/102_上蓋.png" alt="PCB設計專項技術證">
     <p>PCB設計專項技術證書<br>（教育部認證）</p>
   </div>
   <div class="cert-item">
-    <img src="/ScreenShot_2026-05-13_022855_862.png" alt="PCB設計專項技術證書">
-    <p>PCB設計專項技術證書<br>（企業級認證）</p>
+    <img src="/ScreenShot_2026-05-13_022855_862.png" alt="PCB設計專項技術證">
+    <p>PCB設計專項技術證書<br>（培訓機構認證）</p>
   </div>
   <div class="cert-item">
     <img src="/轴体对比.png" alt="電子商務師證">
-    <p>電子商務師證<br>（教育部認證）</p>
+    <p>電子商務師證書<br>（教育部認證）</p>
   </div>
     <div class="cert-item">
     <img src="/102_上蓋.png" alt="物流師三級證">
-    <p>物流師三級證<br>（教育部認證）</p>
+    <p>物流師證書<br>（教育部認證）</p>
   </div>
 </div>
 
