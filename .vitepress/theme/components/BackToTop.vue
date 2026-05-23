@@ -72,7 +72,7 @@ onUnmounted(() => {
   right: 0rem;
   
   /* 背景颜色：翠绿色（可替换为主题色变量，如 var(--vp-c-brand-1)） */
-  background-color: #1c1fe4;
+  background-color: #34343b;
   
   /* 文字颜色白色 */
   color: white;
