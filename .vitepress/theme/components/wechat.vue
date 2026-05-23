@@ -55,7 +55,7 @@
   </div>
   
   <p>--<strong>-</strong></p>
-  <button class="close-btn" @click="hideModal">关闭</button>
+  <button class="close-btn" @click="hideModal">關閉</button>
 </div>
     </div>
   </div>
