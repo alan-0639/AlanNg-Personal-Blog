@@ -31,24 +31,32 @@
     >
       <!-- modal-content 是弹窗的主要内容区域 -->
       <!-- @click.stop 阻止点击内容区域时的事件冒泡，避免触发背景的 hideModal -->
-      <div class="modal-content" @click.stop>
-        <h3> --- </h3>        <!-- 标题（可修改为实际内容） -->
-        <p>如網頁有問題，請發送Email進行反饋，謝謝！</p>
-        
-        <div class="qrcode-container">
-          <div class="qrcode">
-            <!-- 替换为您的QQ二维码图片 -->
-            <!-- 当前 src 为空，需要填入正确的二维码图片 URL -->
-            <img src="" alt="alanng0639@gmail.com">
-            <div class="qrcode-placeholder">
-              <!-- 可保留占位内容，实际图片加载后覆盖 -->
-            </div>
-          </div>
-        </div>
-        
-        <p>請表明身份：<strong>如“機械鍵盤客制化玩家”</strong></p>
-        <button class="close-btn" @click="hideModal">关闭</button>
+<div class="modal-content" @click.stop>
+  <h3> --- </h3>
+  
+  <!-- 修改：将原来的段落改为可点击的邮箱链接，样式与普通文字一致 -->
+  <p>
+    如網頁有問題，請發送 Email 進行反饋，謝謝！
+    <a href="mailto:alanng0639@gmail.com" 
+       style="color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor;">
+      alanng0639@gmail.com
+    </a>
+  </p>
+  
+  <!-- 如果你不需要二维码，可以删除整个 .qrcode-container 区域 -->
+  <div class="qrcode-container">
+    <div class="qrcode">
+      <!-- 可选：若没有二维码图片，建议删除此区域或留空 -->
+      <img src="/PixPin_2026-05-24_03-45-08.png" alt="alanng0639@gmail.com" >
+      <div class="qrcode-placeholder">
+        <!-- 可保留占位内容，实际图片加载后覆盖 -->
       </div>
+    </div>
+  </div>
+  
+  <p>--<strong>-</strong></p>
+  <button class="close-btn" @click="hideModal">关闭</button>
+</div>
     </div>
   </div>
 </template>

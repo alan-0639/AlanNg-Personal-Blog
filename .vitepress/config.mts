@@ -19,6 +19,8 @@ export default defineConfig({
   description: "AlanNg Blog",
   
 
+  ignoreDeadLinks: true,// ：忽略所有死链检查（包括 mailto: 链接）
+
  // srcDir: 'zh-HK', // 明确指定源文件目录
   // 多语言配置
   locales: {
