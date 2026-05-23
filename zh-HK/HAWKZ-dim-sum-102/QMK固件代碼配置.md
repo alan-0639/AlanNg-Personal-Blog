@@ -47,12 +47,12 @@
 }
 </style>
 
-##
 
-# 💻QMK技術文檔
+
+## 
 ::: raw
 <div class="button-container">
-  <a href="https://docs.qmk.fm/newbs/" target="_blank" class="custom-button">Go to QMK Documentation</a>
+  <a href="https://docs.qmk.fm/newbs/" target="_blank" class="custom-button">📀Go to Quantum Mechanical Keyboard Documentation</a>
 </div>
 
 

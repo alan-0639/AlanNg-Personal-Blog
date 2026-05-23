@@ -4,10 +4,12 @@
   <a href="PCB設計"  class="custom-button highlight">⌨️PCB Design</a>
   <a href="QMK固件代碼配置"  class="custom-button">💻Firmware</a>
   <a href="3D建模"  class="custom-button">🐚3D Modelling</a>
+</div>
 
-
-
-
+## 
+::: raw
+<div class="button-container">
+  <a href="../視頻/焊接.html"class="custom-button">🎥Watch PCB Soldering Video</a>
 </div>
 
 
@@ -48,29 +50,30 @@
 }
 </style>
 
+## ⌨Schematic Diagram 
+### ⌨Main board
+![](/PixPin_2026-05-23_01-41-29.png)
+### ⌨Matrix board
+![](/PixPin_2026-05-23_02-18-30.png)
 
-## Schematic Diagram
-![](/ScreenShot_2026-05-13_224056_415.png)
-
-
-
-## ⌨Main Board
+## ⌨PCB Layout 
+### ⌨Main Board
 
 <!--  ![](/PCB_定制版V1_stm32L433+ZLG52810+2X电池模块tc4056_TPS2113_20260317_2026-05-12.png)  -->
 ![](/ScreenShot_2026-05-12_225943_197.png)
 
-## ⌨Matrix Board
+### ⌨Matrix Board
 
 <!--  -->
 <!--   ![ ](/PCB_102_纯矩阵_下灯位_2026-05-12.png)   -->
 ![ ](/ScreenShot_2026-05-12_225707_926.png)
 
 
-## ⌨Li-ion Battery Power Mux Module
+### ⌨Li-ion Battery Power Mux Module
 ![ ](/ScreenShot_2026-05-13_020842_592.png)
 
 
-## ⌨Li-ion Battery Switch
+### ⌨Li-ion Battery Switch
 
 ![ ](/ScreenShot_2026-05-13_022855_862.png)
 

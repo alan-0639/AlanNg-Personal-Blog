@@ -1,143 +1,63 @@
 export default [{
 
-   text: '⌨️PCB Design 👀',link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計',
+   text: '🦯PCB Soldering',link: '/zh-HK/視頻/焊接',
         items: [
-          { text: '⌨️Schematic Diagram', link: '',
+          { text: '🎥焫雞', link: '',
+            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
-              { }
+              { text: '🎞64-LQFP' },
+              { text: '🎞FPC Connector' },
+              { text: '🎞Wireless module' },
+              { text: '🎞USB-C Connector' }
             ]},
-          { text: '⌨️PCB Layout', link: '',
+          { text: '🎥熱風槍', link: '',
+            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
-              { }
-            ] },
-          { text: '⌨️Li-ion Battery Power Mux Module', link: '',
+              { text: '🎞ESOP-8' },
+              { text: '🎞TSSOP-8' },
+              { text: '🎞QFN-48' },
+              { text: '' }
+            ]},
+          { text: '🎥發熱台', link: '',
+            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
-              { }
-            ] },
-          { text: '⌨️Li-ion Battery Switch', link: '',
-            items:[
-              { }
-            ] }
+              { text: '🎞All R & C' },
+              { text: '' },
+              { text: '' },
+              { text: '' }
+            ]}
 
-        ]
-      },{
-   text: '💻Firmware 👀',link: '/zh-HK/HAWKZ-dim-sum-102/QMK固件代碼配置',
-        items: [
-          { text: '💻QMK Guide 👀',link: 'https://docs.qmk.fm/newbs', 
-            items:[
-              { text: '', 
-            items:[
-              {  }
-            ] }
-            ]
-          },
-          { text: '💻R2C Matrix',
-            //collapsed:true,    /*下拉菜单*/ 
-            items:[
-              { text: ''  }
-            ] 
-          },
-          { text: '💻Keymap',
-            //collapsed:true,    /*下拉菜单*/ 
-            items:[
-              { text: ''  }
-            ] 
-          },
-          { text: '💻QMK Firmware Code',
-            //collapsed:true,    /*下拉菜单*/ 
-            items:[
-              { text: ''  },
-              { text: ''  },
-              { text: ''  },
-              { text: ''  },
-              { text: ''  }
-            ] 
-          },
-          { text: '💻QMK Code Build',
-            //collapsed:true,   /*下拉菜单*/ 
-            items:[
-              { text: ''  },
-              { text: ''  }
-            ] 
-          }
-        ]
-      },{
-   text: '🐚3D Modelling 👀', link: '/zh-HK/HAWKZ-dim-sum-102/3D建模',
-            items:[
-          { text: '🐚Top Case', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚Keycaps', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚Plate & Stabilizers', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚plate Foam', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚Switch Foam', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚Matrix PCBA & Switches', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚Switch Socket Foam', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚Bottom Case Foam', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚Bottom Case', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },{ text: '🐚Other accessory 3D models', 
-            items:[
-              { text: '',
-            items:[
-              {  }
-            ] }
-            ]
-          },
-
-            ] 
+        ],
         
+      },{
+   text: '🔩Assembly&Testing',link: '/zh-HK/視頻/組裝與測試',
+        items: [
+          { text: '🎥全局組裝', link: '',
+            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+            items:[
+              { text: '' },
+              { text: '' },
+              { text: '' },
+              { text: '' }
+            ]},
+          { text: '🎥打字聲優', link: '',
+            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+            items:[
+              { text: '🎞綫性HIFI石子音' },
+              { text: '🎞段落圓珠筆音' },
+              { text: '' },
+              { text: '' }
+            ]},
+          { text: '🎥RGB燈效', link: '',
+            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+            items:[
+              { text: '🎞RGB燈效測試' },
+              { text: '🎞RGB燈效轉換' },
+              { text: '' },
+              { text: '' }
+            ]},
+
+        ]
       },
 
 

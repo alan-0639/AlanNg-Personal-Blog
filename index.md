@@ -14,9 +14,9 @@ hero:
       link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計'
     - theme: brand
       text: 視頻展示
-      link: '/zh-HK/視頻/視頻展示'
+      link: '/zh-HK/視頻/焊接'
     - theme: brand
-      text: 本作品介紹及拓展知識
+      text: 作品功能
       link: '/zh-HK/默认配置/'
 
 # 关键：禁用默认的 features 渲染

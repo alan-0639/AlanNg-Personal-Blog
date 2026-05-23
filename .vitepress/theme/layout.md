@@ -5,23 +5,18 @@
     
     <!-- 微信组件 -->
     <WeChat />    
-
-    <!-- 返回顶部按钮 -->
-    <BackToTop />
   </div>
 </template>
 
 <script>
 import DefaultTheme from 'vitepress/theme'
 import WeChat from './components/wechat.vue'
-import BackToTop from './components/BackToTop.vue'
 
 export default {
   name: 'CustomLayout',
   components: {
     VPLayout: DefaultTheme.Layout,
-    WeChat,
-    BackToTop
+    WeChat
   }
 }
 

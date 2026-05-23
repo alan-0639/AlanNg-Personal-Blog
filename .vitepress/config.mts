@@ -39,8 +39,8 @@ export default defineConfig({
         
         // 香港繁体中文的界面文本
         docFooter: {
-          prev: '上一頁',
-          next: '下一頁'
+          prev: false,
+          next: false
         },
         outline: {
           label: '本頁目錄',

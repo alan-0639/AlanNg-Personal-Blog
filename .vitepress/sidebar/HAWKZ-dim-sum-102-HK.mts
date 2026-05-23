@@ -1,7 +1,11 @@
 export default [{
 
-   text: '⌨️PCB Design 👀',link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計',
+   text: '⌨️PCB Design 🔗',link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計',
         items: [
+          { text: '🎥PCB Soldering🔗', link: '../視頻/焊接.html',
+            items:[
+              { }
+            ]},
           { text: '⌨️Schematic Diagram', link: '',
             items:[
               { }
@@ -10,20 +14,13 @@ export default [{
             items:[
               { }
             ] },
-          { text: '⌨️Li-ion Battery Power Mux Module', link: '',
-            items:[
-              { }
-            ] },
-          { text: '⌨️Li-ion Battery Switch', link: '',
-            items:[
-              { }
-            ] }
+
 
         ]
       },{
-   text: '💻Firmware 👀',link: '/zh-HK/HAWKZ-dim-sum-102/QMK固件代碼配置',
+   text: '💻Firmware 🔗',link: '/zh-HK/HAWKZ-dim-sum-102/QMK固件代碼配置',
         items: [
-          { text: '💻QMK Guide 👀',link: 'https://docs.qmk.fm/newbs', 
+          { text: '💻QMK Guide 🔗',link: 'https://docs.qmk.fm/newbs', 
             items:[
               { text: '', 
             items:[
@@ -62,7 +59,7 @@ export default [{
           }
         ]
       },{
-   text: '🐚3D Modelling 👀', link: '/zh-HK/HAWKZ-dim-sum-102/3D建模',
+   text: '🐚3D Modelling 🔗', link: '/zh-HK/HAWKZ-dim-sum-102/3D建模',
             items:[
           { text: '🐚Top Case', 
             items:[
