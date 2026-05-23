@@ -65,7 +65,7 @@ onUnmounted(() => {
   position: fixed;
   
   /* 距离视口底部 2rem（默认 1rem = 16px，即 32px） */
-  bottom: 2rem;
+  bottom: 8rem;
   
   /* 距离视口左侧 50% —— 此时按钮会水平居中（左边界在屏幕 50% 处） */
   /* 注意：这会导致按钮从中心向左偏移一半自身宽度，实际需要配合 transform 才能完美居中 */
@@ -102,7 +102,7 @@ onUnmounted(() => {
 }
 @media (max-width: 768px) {
   .qq-float-btn {
-    bottom: 6rem;
+    bottom: 2rem;
     right: 20px;
     width: 50px;
     height: 50px;
