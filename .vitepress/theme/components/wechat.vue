@@ -198,7 +198,7 @@ export default {
 /* 响应式布局：屏幕宽度 ≤ 768px 时（手机/平板），调整按钮位置和大小 */
 @media (max-width: 768px) {
   .qq-float-btn {
-    bottom: 8rem;
+    bottom: 6rem;
     right: 20px;
     width: 50px;
     height: 50px;
