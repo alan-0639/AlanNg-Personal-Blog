@@ -101,7 +101,7 @@ export default {
 .qq-float-btn {
   position: fixed;      /* 固定定位，相对于视口 */
   bottom: 2rem;        /* 距离底部 8rem（约 128px） */
-  right: 24.5rem;         /* 距离右侧 30px */
+  right: 1.5rem;         /* 距离右侧 30px */
   width: 60px;
   height: 60px;
   background: #12B7F5; /* QQ 标志性蓝色 */
