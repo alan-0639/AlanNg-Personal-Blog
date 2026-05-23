@@ -101,7 +101,7 @@ onUnmounted(() => {
   opacity: 0.8;
 }
 @media (max-width: 768px) {
-  .qq-float-btn {
+  .back-to-top{
     bottom: 2rem;
     right: 0px;
     width: 0px;
