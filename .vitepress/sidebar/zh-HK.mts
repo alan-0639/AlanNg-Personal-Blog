@@ -46,14 +46,14 @@ export default [{
             ]
           },
           { text: '1️⃣-排列選擇 🔗',link: '/zh-HK/基础定制/配列选择',
-            collapsed:true,    /*下拉菜单*/ 
+          /*  collapsed:true,    /*下拉菜单*/ 
             items:[
               { text: '⌨默認排列 ',link: '/zh-HK/基础定制/配列选择/默认配列',  },
               { text: '⌨自製排列 ',link: '/zh-HK/基础定制/配列选择/自定义配列',  }
             ] 
           },
           { text: '2️⃣-軸體類型 🔗',link: '/zh-HK/基础定制/轴体选择',
-            collapsed:true,   /*下拉菜单*/ 
+          /*  collapsed:true,   /*下拉菜单*/ 
             items:[
               { text: '⌨高軸 ',link: '/zh-HK/基础定制/轴体选择/高轴',  },
               { text: '⌨矮軸 ',link: '/zh-HK/基础定制/轴体选择/矮轴',  }

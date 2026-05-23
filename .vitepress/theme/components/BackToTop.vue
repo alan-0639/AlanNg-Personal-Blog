@@ -69,7 +69,7 @@ onUnmounted(() => {
   
   /* 距离视口左侧 50% —— 此时按钮会水平居中（左边界在屏幕 50% 处） */
   /* 注意：这会导致按钮从中心向左偏移一半自身宽度，实际需要配合 transform 才能完美居中 */
-  right: 0rem;
+  right: 23rem;
   
   /* 背景颜色：翠绿色（可替换为主题色变量，如 var(--vp-c-brand-1)） */
   background-color: #34343b;
@@ -99,5 +99,13 @@ onUnmounted(() => {
 /* 鼠标悬停在按钮上时的样式：将透明度降低到 0.8，产生半透明反馈效果 */
 .back-to-top:hover {
   opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .qq-float-btn {
+    bottom: 6rem;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+  }
 }
 </style>

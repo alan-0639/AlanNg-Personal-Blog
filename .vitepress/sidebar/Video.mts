@@ -3,7 +3,7 @@ export default [{
    text: '🦯PCB Soldering',link: '/zh-HK/視頻/焊接',
         items: [
           { text: '🎥焫雞', link: '',
-            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+          /*  collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
               { text: '🎞64-LQFP' },
               { text: '🎞FPC Connector' },
@@ -11,7 +11,7 @@ export default [{
               { text: '🎞USB-C Connector' }
             ]},
           { text: '🎥熱風槍', link: '',
-            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+          /*  collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
               { text: '🎞ESOP-8' },
               { text: '🎞TSSOP-8' },
@@ -19,7 +19,7 @@ export default [{
               { text: '' }
             ]},
           { text: '🎥發熱台', link: '',
-            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+         /*   collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
               { text: '🎞All R & C' },
               { text: '' },
@@ -33,7 +33,7 @@ export default [{
    text: '🔩Assembly&Testing',link: '/zh-HK/視頻/組裝與測試',
         items: [
           { text: '🎥全局組裝', link: '',
-            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+           /* collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
               { text: '' },
               { text: '' },
@@ -41,7 +41,7 @@ export default [{
               { text: '' }
             ]},
           { text: '🎥打字聲優', link: '',
-            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+           /* collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
               { text: '🎞綫性HIFI石子音' },
               { text: '🎞段落圓珠筆音' },
@@ -49,7 +49,7 @@ export default [{
               { text: '' }
             ]},
           { text: '🎥RGB燈效', link: '',
-            collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
+          /*  collapsed:false,    /*下拉菜单，默認展開為false，默認隱藏為true*/
             items:[
               { text: '🎞RGB燈效測試' },
               { text: '🎞RGB燈效轉換' },
