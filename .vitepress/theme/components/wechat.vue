@@ -100,7 +100,7 @@ export default {
 /* 悬浮按钮样式 */
 .qq-float-btn {
   position: fixed;      /* 固定定位，相对于视口 */
-  bottom: 2rem;        /* 距离底部 8rem（约 128px） */
+  bottom: 1rem;        /* 距离底部 8rem（约 128px） */
   right: 1.5rem;         /* 距离右侧 30px */
   width: 60px;
   height: 60px;
@@ -198,8 +198,8 @@ export default {
 /* 响应式布局：屏幕宽度 ≤ 768px 时（手机/平板），调整按钮位置和大小 */
 @media (max-width: 768px) {
   .qq-float-btn {
-    bottom: 6rem;
-    right: 20px;
+    bottom: 1rem;
+    right: 1.1rem;
     width: 50px;
     height: 50px;
   }

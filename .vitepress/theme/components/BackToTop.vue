@@ -102,10 +102,10 @@ onUnmounted(() => {
 }
 @media (max-width: 768px) {
   .back-to-top{
-    bottom: 2rem;
-    right: 0px;
-    width: 0px;
-    height: 0px;
+    bottom: 5rem;
+    right: 20px;
+    width: 50px;
+    height: 150px;
   }
 }
 </style>
