@@ -11,13 +11,14 @@ hero:
   actions:
     - theme: brand
       text: 創作歷程
-      link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計'
-    - theme: brand
-      text: 視頻展示
-      link: '/zh-HK/視頻/焊接'
+      link: '/zh-HK/HAWKZ-dim-sum-102/PCB設計'    
     - theme: brand
       text: 作品功能
       link: '/zh-HK/默认配置/'
+    - theme: brand
+      text: 視頻展示
+      link: '/zh-HK/視頻/焊接'
+
 
 # 关键：禁用默认的 features 渲染
 features: []
@@ -65,25 +66,12 @@ features: []
         <span>DFA</span>
       </div>
     </div>
-<!-- 4. 技术文件 & ERP管理 -->
-    <div class="feature-card">
-      <h3>📁技術文件 & ERP管理</h3>
-      <div class="feature-tagline">BOM · ECO · 版本管控</div>
-      <div class="feature-desc">
-        熟練操作 ERP（E10、企雲樂），BOM結構管理、工程變更（ECO）流程。技術文件與固件版本追蹤，跨部門溝通，提升量產效率。
-      </div>
-      <div class="tech-tags">
-        <span>BOM管理</span>
-        <span>ERP</span>
-        <span>版本控制</span>
-      </div>
-    </div>
-<!-- 5. 产品验证 & 故障分析 -->
+<!-- 4. 产品验证 & 故障分析 -->
     <div class="feature-card">
       <h3>🧪產品驗證 & 故障分析</h3>
       <div class="feature-tagline">FVT · DFT · 客戶技術支援</div>
       <div class="feature-desc">
-        設計驗證階段導入DFT，執行功能驗證（FVT）。協助客戶故障分析、技術諮詢，與工廠對接設計變更，提升品牌信賴度。
+        設計驗證階段導入DFT，執行功能驗證（FVT）。協助客戶故障分析、技術諮詢，提升品牌信賴度。
       </div>
       <div class="tech-tags">
         <span>驗證</span>
@@ -91,12 +79,26 @@ features: []
         <span>故障排除</span>
       </div>
     </div>
+<!-- 5. 技术文件 & BOM管理 -->
+    <div class="feature-card">
+      <h3>📁技術文件 & 工程變更管理</h3>
+      <div class="feature-tagline">BOM · VS Code · ECP</div>
+      <div class="feature-desc">
+         VS Code技術博客撰寫、技術文件。ECP（工程變更）流程管理固件版本與設計變更。BOM結構管理，跨部門溝通，提升量產效率。
+      </div>
+      <div class="tech-tags">
+        <span>ECP</span>
+        <span>BOM</span>
+        <span>VS Code</span>
+        <span>固件版本管控</span>
+      </div>
+    </div>
 <!-- 6. 多面手 / 工具链整合 -->
     <div class="feature-card">
-      <h3>🌐多領域知識 & 跨域整合</h3>
-      <div class="feature-tagline">系統操作 · 技術演示</div>
+      <h3>🌐 企業營運 & 跨域協同</h3>
+      <div class="feature-tagline">ERP · 電商 · 遠端支援</div>
       <div class="feature-desc">
-        VS Code (內容編輯器)、Shopify庫存管理、遠端系統支援、技術演示。整合軟硬體工具鏈，串連開發、測試與商務流程。
+         Shopify庫存ERP（企雲樂）管理、遠端系統支援、技術演示。整合軟硬體工具鏈，串連開發、測試與商務流程。
       </div>
       <div class="tech-tags">
         <span>遠端系統支援</span>
