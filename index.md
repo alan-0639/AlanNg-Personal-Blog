@@ -115,20 +115,20 @@ features: []
 
 <div class="cert-grid">
   <div class="cert-item">
-    <img src="/102_上蓋.png" alt="PCB設計專項技術證">
-    <p>PCB設計專項技術證書<br>（教育部認證）</p>
+    <img src="/IMG_4864(20260530-064118).png" alt="大學專科畢業證">
+    <p>大學畢業證<br>（中國學信網認證）</p>
   </div>
   <div class="cert-item">
-    <img src="/ScreenShot_2026-05-13_022855_862.png" alt="PCB設計專項技術證">
-    <p>PCB設計專項技術證書<br>（培訓機構認證）</p>
+    <img src="/嘉立創pcb證書.png" alt="PCB設計專項技術證">
+    <p>PCB設計專項技術證書<br>（嘉立創特批證書）</p>
   </div>
   <div class="cert-item">
-    <img src="/轴体对比.png" alt="電子商務師證">
-    <p>電子商務師證書<br>（教育部認證）</p>
+    <img src="/中國電子學會PCB證書.png" alt="PCB設計專項技術證">
+    <p>PCB設計專項技術證書<br>（中國電子學會）</p>
   </div>
     <div class="cert-item">
-    <img src="/102_上蓋.png" alt="物流師三級證">
-    <p>物流師證書<br>（教育部認證）</p>
+    <img src="/電子商務師証.png" alt="電子商務師">
+    <p>電子商務師證書<br>（教育部認證）</p>
   </div>
 </div>
 
@@ -142,6 +142,7 @@ features: []
 
 
 /* 使用 CSS Grid 布局实现响应式卡片网格 */
+
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -239,11 +240,11 @@ features: []
 .cert-item {
   background: var(--vp-c-bg-soft);
   border-radius: 12px;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   transition: transform 0.2s;
   border: 5px solid var(--vp-c-divider);
-  height: 280px;                     /* 固定高度，保证卡片整齐 */
+  height: 350px;                     /* 固定高度，保证卡片整齐 */
   display: flex;
   flex-direction: column;
   justify-content: space-between;    /* 图片靠上，文字靠下 */
@@ -257,10 +258,10 @@ features: []
 /* 证书图片样式 */
 .cert-item img {
   display: block;
-  margin: 0 auto;                    /* 水平居中 */
+  margin:  auto;                    /* 水平居中 */
   max-width: 100%;
-  height: 70%;                       /* 占卡片高度的70% */
-  max-height: 200px;
+  height: 80%;                       /* 占卡片高度的70% */
+  max-height: 300px;
   object-fit: contain;               /* 保持图片比例，不裁剪 */
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
