@@ -124,7 +124,7 @@ features: []
   </div>
   <div class="cert-item">
     <img src="/中國電子學會PCB證書.png" alt="PCB設計專項技術證">
-    <p>PCB設計專項技術證書<br>（中國電子學會）</p>
+    <p>PCB設計專項技術證書<br>（中國電子學會）<br>左側證書正本遺失，補辦中 · · · <br>暫時使用以前照片</p>
   </div>
     <div class="cert-item">
     <img src="/電子商務師証.png" alt="電子商務師">
