@@ -69,9 +69,9 @@ features: []
 <!-- 4. 产品验证 & 故障分析 -->
     <div class="feature-card">
       <h3>🧪產品驗證 & 故障分析</h3>
-      <div class="feature-tagline">FVT · DFT · 客戶技術支援</div>
+      <div class="feature-tagline">產品功能測試 · 故障分析 · 客戶技術支援</div>
       <div class="feature-desc">
-        設計驗證階段導入DFT，執行功能驗證（FVT）。協助客戶故障分析、技術諮詢，提升品牌信賴度。
+  <!--      設計驗證階段導入DFT，執行功能驗證（FVT）。協助客戶故障分析、技術諮詢，提升品牌信賴度。-->
       </div>
       <div class="tech-tags">
         <span>驗證</span>
@@ -81,10 +81,10 @@ features: []
     </div>
 <!-- 5. 技术文件 & BOM管理 -->
     <div class="feature-card">
-      <h3>📁技術文件 & 工程變更管理</h3>
+      <h3>📁技術文件 & 工程協助管理</h3>
       <div class="feature-tagline">BOM · VS Code · ECP</div>
       <div class="feature-desc">
-         VS Code技術博客撰寫、技術文件。ECP（工程變更）流程管理固件版本與設計變更。BOM結構管理，跨部門溝通，提升量產效率。
+  <!--       VS Code技術博客撰寫、技術文件。ECP（工程變更）流程管理固件版本與設計變更。BOM結構管理，跨部門溝通，提升量產效率。   -->
       </div>
       <div class="tech-tags">
         <span>ECP</span>
@@ -95,10 +95,10 @@ features: []
     </div>
 <!-- 6. 多面手 / 工具链整合 -->
     <div class="feature-card">
-      <h3>🌐 企業營運 & 跨域協同</h3>
+      <h3>🌐 跨域協同</h3>
       <div class="feature-tagline">ERP · 電商 · 遠端支援</div>
       <div class="feature-desc">
-         Shopify庫存ERP（企雲樂）管理、遠端系統支援、技術演示。整合軟硬體工具鏈，串連開發、測試與商務流程。
+  <!--       Shopify庫存ERP（企雲樂）管理、遠端系統支援、技術演示。整合軟硬體工具鏈，串連開發、測試與商務流程。-->
       </div>
       <div class="tech-tags">
         <span>遠端系統支援</span>
