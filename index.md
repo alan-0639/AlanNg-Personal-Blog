@@ -120,7 +120,7 @@ features: []
   </div>
   <div class="cert-item">
     <img src="/嘉立創pcb證書.png" alt="PCB設計專項技術證">
-    <p>PCB設計專項技術證書<br>（嘉立創特批證書）</p>
+    <p>PCB設計專項技術證書電子檔<br>（嘉立創集團特批證書）</p>
   </div>
   <div class="cert-item">
     <img src="/中國電子學會PCB證書.png" alt="PCB設計專項技術證">
