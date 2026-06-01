@@ -115,8 +115,8 @@ features: []
 
 <div class="cert-grid">
   <div class="cert-item">
-    <img src="/IMG_4864(20260530-064118).png" alt="大學專科畢業證">
-    <p>大學畢業證<br>（中國學信網認證）</p>
+    <img src="/IMG_4864(20260530-064118).png" alt="大專畢業證">
+    <p>大專畢業證<br>（中國學信網認證）</p>
   </div>
   <div class="cert-item">
     <img src="/嘉立創pcb證書.png" alt="PCB設計專項技術證">
