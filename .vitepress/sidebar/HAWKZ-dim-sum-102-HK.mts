@@ -61,6 +61,10 @@ export default [{
       },{
    text: '🐚3D Modelling 🔗', link: '/zh-HK/HAWKZ-dim-sum-102/3D建模',
             items:[
+          { text: '🎥Assembly & Testing🔗', link: '../視頻/組裝與測試.html',
+            items:[
+              { }
+            ]},
           { text: '🐚Top Case', 
             items:[
               { text: '',
