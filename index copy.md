@@ -66,33 +66,51 @@ features: []
         <span>DFA</span>
       </div>
     </div>
+<!-- 4. 产品验证 & 故障分析 -->
+    <div class="feature-card">
+      <h3>🧪產品驗證 & 故障分析</h3>
+      <div class="feature-tagline">產品功能測試 · 故障分析 · 客戶技術支援</div>
+      <div class="feature-desc">
+  <!--      設計驗證階段導入DFT，執行功能驗證（FVT）。協助客戶故障分析、技術諮詢，提升品牌信賴度。-->
+      </div>
+      <div class="tech-tags">
+        <span>驗證</span>
+        <span>分析</span>
+        <span>故障排除</span>
+      </div>
+    </div>
+<!-- 5. 技术文件 & BOM管理 -->
+    <div class="feature-card">
+      <h3>📁技術文件 & 工程協助管理</h3>
+      <div class="feature-tagline">BOM · VS Code · ECP</div>
+      <div class="feature-desc">
+  <!--       VS Code技術博客撰寫、技術文件。ECP（工程變更）流程管理固件版本與設計變更。BOM結構管理，跨部門溝通，提升量產效率。   -->
+      </div>
+      <div class="tech-tags">
+        <span>ECP</span>
+        <span>BOM</span>
+        <span>VS Code</span>
+        <span>固件版本管控</span>
+      </div>
+    </div>
+<!-- 6. 多面手 / 工具链整合 -->
+    <div class="feature-card">
+      <h3>🌐 跨域協同</h3>
+      <div class="feature-tagline">ERP · 電商 · 遠端支援</div>
+      <div class="feature-desc">
+  <!--       Shopify庫存ERP（企雲樂）管理、遠端系統支援、技術演示。整合軟硬體工具鏈，串連開發、測試與商務流程。-->
+      </div>
+      <div class="tech-tags">
+        <span>遠端系統支援</span>
+        <span>Shopify</span>
+        <span>技術演示</span>
+      </div>
+    </div>
   </div>
 </div>
 
-##
-# 📜 主要應用工具
 
-<div class="tool-grid">
-  <div class="tool-item">
-    <img src="/Github.png" alt="Github">
-    <p>Github<br>（代碼托管平臺）</p>
-  </div>
-  <div class="tool-item">
-    <img src="/嘉立創EDA原理圖.png" alt="嘉立創EDA原理圖">
-    <p>嘉立創DEA-EasyDEA Pro<br>（PCB設計軟件）</p>
-  </div>
-  <div class="tool-item">
-    <img src="/QMK代碼.png" alt="QMK代碼">
-    <p>VS Code<br>（內容編輯器）</p>
-  </div>
-    <div class="tool-item">
-    <img src="/102整機截面分析.png" alt="102整機截面分析">
-    <p>Fusion360<br>（3D建模軟）</p>
-  </div>
-</div>
-
-
-
+---
 
 # 📜 部分證書展示
 
@@ -266,64 +284,4 @@ features: []
     padding: 1.5rem;
   }
 }
-
-
-/* ---------- 主要工具样式（你原来已有的，这里补充注释） ---------- */
-.tool-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-/* 单个证书卡片 */
-.tool-item {
-  background: var(--vp-c-bg-soft);
-  border-radius: 12px;
-  padding: 0.5rem;
-  text-align: center;
-  transition: transform 0.2s;
-  border: 5px solid var(--vp-c-divider);
-  height: 250px;                     /* 固定高度，保证卡片整齐 */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;    /* 图片靠上，文字靠下 */
-}
-
-/* 证书卡片悬停效果 */
-.tool-item:hover {
-  transform: translateY(-8px);
-}
-
-/* 证书图片样式 */
-.tool-item img {
-  display: block;
-  margin:  auto;                    /* 水平居中 */
-  max-width: 100%;
-  height: 80%;                       /* 占卡片高度的70% */
-  max-height: 300px;
-  object-fit: contain;               /* 保持图片比例，不裁剪 */
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* 证书文字说明 */
-.tool-item p {
-  margin: 0.75rem 0 0;
-  font-weight: 500;
-  color: var(--vp-c-text-1);
-}
-
-/* ---------- 响应式：小屏幕（手机）时卡片内边距减小 ---------- */
-@media (max-width: 680px) {
-  .features-grid {
-    grid-template-columns: 1fr;      /* 手机屏幕每行只显示一张卡片 */
-  }
-  .feature-tool {
-    padding: 1.5rem;
-  }
-}
-
 </style>
-
-
