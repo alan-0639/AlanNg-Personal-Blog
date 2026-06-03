@@ -43,20 +43,20 @@ features: []
 <!-- 2. PCB设计 & 硬件实现 -->
     <div class="feature-card">
       <h3>🔧PCB設計 & 硬體實作</h3>
-      <div class="feature-tagline">原理圖 · Layout · 焊接調試</div>
+      <div class="feature-tagline">原理圖 · PCB · 焊接 · 調試</div>
       <div class="feature-desc">
-        雙層PCB Layout、嘉立創EDA、PCB打樣、手工焊接（電烙鐵/風槍/加熱台）。搭配J-Link/ST-Link、他錶進行除錯與PCBA測試。
+        雙層PCB Layout、嘉立創EDA、PCB打樣、手工焊接（電烙鐵/風槍/加熱台）。搭配J-Link/ST-Link、萬用表進行PCBA測試除錯。
       </div>
       <div class="tech-tags">
-        <span>嘉立創EDA</span>
-        <span>燒錄</span>
+        <span>EasyEDA Pro</span>
+        <span>BL/FW燒錄</span>
         <span>焊接實操</span>
       </div>
     </div>
 <!-- 3. 结构与机构整合 -->
     <div class="feature-card">
       <h3>🧱結構 & 機械整合</h3>
-      <div class="feature-tagline">3D建模 · 2D圖 · 公差分析</div>
+      <div class="feature-tagline">3D建模 · 2D圖 · 公差分析 · 工廠對接</div>
       <div class="feature-desc">
         Fusion360 3D建模、AutoCAD 2D出圖，結構DFA分析。對接CNC、3D列印、鈑金廠，確保PCB與外殼精準匹配，降低組裝干涉。
       </div>
@@ -70,7 +70,7 @@ features: []
 </div>
 
 ##
-# 📜 主要應用工具
+# 🛠 主要應用工具
 
 <div class="tool-grid">
   <div class="tool-item">
@@ -83,11 +83,11 @@ features: []
   </div>
   <div class="tool-item">
     <img src="/QMK代碼.png" alt="QMK代碼">
-    <p>VS Code<br>（內容編輯器）</p>
+    <p>VS Code<br>（代碼內容與插件編輯器）</p>
   </div>
     <div class="tool-item">
     <img src="/102整機截面分析.png" alt="102整機截面分析">
-    <p>Fusion360<br>（3D建模軟）</p>
+    <p>Fusion360<br>（3D建模軟件）</p>
   </div>
 </div>
 
