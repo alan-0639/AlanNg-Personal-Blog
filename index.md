@@ -78,7 +78,7 @@ features: []
     <p>Github<br>（代碼托管平臺）</p>
   </div>
   <div class="tool-item">
-    <img src="/嘉立創EDA原理圖.png" alt="嘉立創EDA原理圖">
+    <img src="/嘉立創EDA.png" alt="嘉立創EDA">
     <p>嘉立創DEA-EasyDEA Pro<br>（PCB設計軟件）</p>
   </div>
   <div class="tool-item">
@@ -91,9 +91,51 @@ features: []
   </div>
 </div>
 
+# 🛠 次要應用工具
+
+<div class="Stool-grid">
+  <div class="Stool-item">
+    <img src="/PixPin_2026-06-08_03-09-29.png" alt="Github">
+    <p><br></p>
+  </div>
+  <div class="Stool-item">
+    <img src="/AutoCAD.png" alt="嘉立創EDA原理圖">
+    <p><br></p>
+  </div>
+  <div class="Stool-item">
+    <img src="/PS.png" alt="QMK代碼">
+    <p><br></p>
+  </div>
+    <div class="Stool-item">
+    <img src="/STM32 ST-LINK Utility.png" alt="102整機截面分析">
+    <p><br></p>
+  </div>
+    <div class="Stool-item">
+    <img src="/nRF Connect for Desktop.png" alt="102整機截面分析">
+    <p><br></p>
+  </div>
+    <div class="Stool-item">
+    <img src="/串口设置5.13.1.png" alt="102整機截面分析">
+    <p><br></p>
+  </div>
+    <div class="Stool-item">
+    <img src="/Git Bash.png" alt="102整機截面分析">
+    <p><br></p>
+  </div>
+    <div class="Stool-item">
+    <img src="/J-Link RTT Viewer V7.94i.png" alt="102整機截面分析">
+    <p><br></p>
+  </div>
+    <div class="Stool-item">
+    <img src="/仿真电路模拟器 - 快捷方式.png" alt="102整機截面分析">
+    <p><br></p>
+  </div>
 
 
+</div>
 
+
+##
 # 📜 部分證書展示
 
 <div class="cert-grid">
@@ -116,9 +158,13 @@ features: []
 </div>
 
 <style>
+
+
 <!-- ========== 样式定义（自适应亮色/暗色主题，移动端友好） ========== -->
 <style>
-/* ---------- 自定义 Features 样式 ---------- */
+
+
+/* ------------------------------ 大卡片 样式 ------------------------------ */
 .custom-features {
   margin: 2rem 0;          /* 上下外边距，与上下内容保持距离 */
 }
@@ -205,13 +251,14 @@ features: []
   border-radius: 0.75rem;               /* 胶囊形状 */
   font-size: 0.7rem;
   font-weight: 1000;
-  color: var(--vp-c-text-2);
-
-
-  
+  color: var(--vp-c-text-2);  
 }
 
-/* ---------- 证书网格样式（你原来已有的，这里补充注释） ---------- */
+
+
+
+
+/* ------------------------------ 证书网格样式------------------------------ */
 .cert-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -268,7 +315,9 @@ features: []
 }
 
 
-/* ---------- 主要工具样式（你原来已有的，这里补充注释） ---------- */
+
+
+/* ------------------------------ 主要工具样式------------------------------ */
 .tool-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -323,6 +372,67 @@ features: []
     padding: 1.5rem;
   }
 }
+
+
+
+/* ------------------------------ 次要工具样式 ------------------------------ */
+.Stool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* 单个证书卡片 */
+.Stool-item {
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 0rem;
+  text-align: center;
+  transition: transform 0.2s;
+  border: 5px solid var(--vp-c-divider);
+  height: 100px;                     /* 固定高度，保证卡片整齐 */
+  width: 90px;                     /* 固定高度，保证卡片整齐 */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;    /* 图片靠上，文字靠下 */
+}
+
+/* 证书卡片悬停效果 */
+.Stool-item:hover {
+  transform: translateY(-8px);
+}
+
+/* 证书图片样式 */
+.Stool-item img {
+  display: block;
+  margin:  auto;                    /* 水平居中 */
+  max-width: 100%;
+  height: 100%;                       /* 占卡片高度的70% */
+  max-height: 300px;
+  object-fit: contain;               /* 保持图片比例，不裁剪 */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 证书文字说明 */
+.Stool-item p {
+  margin: 0.75rem 0 0;
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+}
+
+/* ---------- 响应式：小屏幕（手机）时卡片内边距减小 ---------- */
+@media (max-width: 680px) {
+  .features-grid {
+    grid-template-columns: 1fr;      /* 手机屏幕每行只显示一张卡片 */
+  }
+  .feature-Stool {
+    padding: 1.5rem;
+  }
+}
+
+
 
 </style>
 
