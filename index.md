@@ -74,24 +74,53 @@ features: []
 
 <div class="tool-grid">
   <div class="tool-item">
-    <img src="/Github.png" alt="Github">
-    <p>Github<br>（代碼托管平臺）</p>
+    <!-- 上方大图片区域 -->
+    <div class="top-img">
+      <img src="/Github.png" alt="Github">
+    </div>
+    <!-- 下方行：小图标 + 文字 -->
+    <div class="bottom-row">
+      <img src="/GitHub software.png" alt="icon" class="bottom-icon">
+      <p class="bottom-text">Github<br>代码托管平台</p>
+    </div>
   </div>
   <div class="tool-item">
-    <img src="/嘉立創EDA.png" alt="嘉立創EDA">
-    <p>嘉立創DEA-EasyDEA Pro<br>（PCB設計軟件）</p>
+    <!-- 上方大图片区域 -->
+    <div class="top-img">
+      <img src="/嘉立創EDA.png" alt="嘉立創EDA">
+    </div>
+    <!-- 下方行：小图标 + 文字 -->
+    <div class="bottom-row">
+      <img src="/嘉立创EDA(专业版).png" alt="嘉立創EDA" class="bottom-icon">
+      <p class="bottom-text">嘉立創DEA PRO<br>EasyDEA PRO<br>PCB設計軟件</p>
+    </div>
   </div>
   <div class="tool-item">
-    <img src="/QMK代碼.png" alt="QMK代碼">
-    <p>VS Code<br>（代碼內容與插件編輯器）</p>
+    <!-- 上方大图片区域 -->
+    <div class="top-img">
+      <img src="/QMK代碼.png" alt="QMK代碼">
+    </div>
+    <!-- 下方行：小图标 + 文字 -->
+    <div class="bottom-row">
+      <img src="/Visual Studio Code.png" alt="VS Code" class="bottom-icon">
+      <p class="bottom-text">VS Code<br>代碼內容編輯器</p>
+    </div>
   </div>
-    <div class="tool-item">
-    <img src="/102整機截面分析.png" alt="102整機截面分析">
-    <p>Fusion360<br>（3D建模軟件）</p>
+  <div class="tool-item">
+    <!-- 上方大图片区域 -->
+    <div class="top-img">
+      <img src="/102整機截面分析.png" alt="102整機截面分析">
+    </div>
+    <!-- 下方行：小图标 + 文字 -->
+    <div class="bottom-row">
+      <img src="/Autodesk Fusion.png" alt="Fusion360" class="bottom-icon">
+      <p class="bottom-text">Fusion360<br>3D建模軟件</p>
+    </div>
   </div>
+
 </div>
 
-# 🛠 次要應用工具
+# 🛠 其他應用工具
 
 <div class="Stool-grid">
   <div class="Stool-item">
@@ -316,66 +345,101 @@ features: []
 
 
 
-
-/* ------------------------------ 主要工具样式------------------------------ */
+/* ------------------------------ 主要應用工具样式 ------------------------------ */
 .tool-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1.5rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
-/* 单个证书卡片 */
+/* 单个工具卡片 */
 .tool-item {
   background: var(--vp-c-bg-soft);
   border-radius: 12px;
-  padding: 0.5rem;
-  text-align: center;
+  padding: 0.5rem;               /* 修改：稍微加大内边距，更舒适 */
   transition: transform 0.2s;
   border: 5px solid var(--vp-c-divider);
-  height: 250px;                     /* 固定高度，保证卡片整齐 */
+  height: 240px;                  /* 修改：稍微增高一点点以容纳底部行 */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;    /* 图片靠上，文字靠下 */
+  /* 移除 justify-content: space-between，改用 margin-top: auto 控制底部 */
 }
 
-/* 证书卡片悬停效果 */
+/* 卡片悬停效果（不变） */
 .tool-item:hover {
   transform: translateY(-8px);
 }
 
-/* 证书图片样式 */
-.tool-item img {
-  display: block;
-  margin:  auto;                    /* 水平居中 */
-  max-width: 100%;
-  height: 80%;                       /* 占卡片高度的70% */
-  max-height: 300px;
-  object-fit: contain;               /* 保持图片比例，不裁剪 */
+/* ---------- 新增：上方大图片样式 ---------- */
+.tool-item .top-img {
+  width: 100%;
+  height: 0;                      /* 关键：让高度由 padding-bottom 撑开 */
+  padding-bottom: 56.25%;         /* 16:9 比例，你可以改成 60% 或 75% 等 */
+  position: relative;
+  overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: var(--vp-c-bg);
 }
 
-/* 证书文字说明 */
-.tool-item p {
-  margin: 0.75rem 0 0;
+.tool-item .top-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;            /* 或 cover，按需 */
+  border-radius: 8px;
+}
+
+/* ---------- 新增：底部行（左小图 + 右文字） ---------- */
+.tool-item .bottom-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: auto;               /* 让底部行贴底 */
+  padding-top: 8px;
+}
+
+/* 左侧小图片 */
+.tool-item .bottom-icon {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  object-fit: contain;
+    border-radius: 10px;
+}
+
+/* 右侧文字 */
+.tool-item .bottom-text {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.3;
   font-weight: 500;
   color: var(--vp-c-text-1);
+  text-align: left;
+  flex: 1;                        /* 文字占据剩余宽度 */
+  
 }
 
-/* ---------- 响应式：小屏幕（手机）时卡片内边距减小 ---------- */
+
+/* 如果你还需要保留原来的 img 和 p 全局样式（防止干扰其他地方） */
+/* 这些旧样式可以删除，或者加上作用域限制 */
+
+/* ---------- 响应式：小屏幕 ---------- */
 @media (max-width: 680px) {
-  .features-grid {
-    grid-template-columns: 1fr;      /* 手机屏幕每行只显示一张卡片 */
+  /* 注意：原代码中的 .features-grid 和 .feature-tool 可能是笔误，改为 .tool-grid 和 .tool-item */
+  .tool-grid {
+    grid-template-columns: 1fr;   /* 手机每行一个卡片 */
   }
-  .feature-tool {
-    padding: 1.5rem;
+  .tool-item {
+    height: auto;                 /* 手机取消固定高度，让内容撑开 */
   }
 }
 
 
 
-/* ------------------------------ 次要工具样式 ------------------------------ */
+/* ------------------------------ 其他應用工具样式 ------------------------------ */
 .Stool-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
