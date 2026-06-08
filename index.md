@@ -30,9 +30,9 @@ features: []
     <!-- 1. 从0到1项目落地 -->
     <div class="feature-card">
       <h3>🧠從0到1專案落地</h3>
-      <div class="feature-tagline">概念 → 设计 → 验证 → 成品</div>
+      <div class="feature-tagline">概念 → 設計 → 驗證 → 成品</div>
       <div class="feature-desc">
-        獨立完成機械鍵盤專案：概念DFA、原理圖、PCB Layout、韌體編寫、3D建模、對接工廠（CNC/3D列印/鈑金）、整機FVT測試。
+        獨立完成機械鍵盤專案：概念DFA、原理圖、PCB Layout、韌體編寫、3D建模、對接工廠（CNC/3D列印/鈑金）、整機FVT測試等。
       </div>
       <div class="tech-tags">
         <span>DFM/DFT/DFA</span>
@@ -120,6 +120,8 @@ features: []
 
 </div>
 
+
+
 # 🛠 其他應用工具
 
 <div class="Stool-grid">
@@ -135,28 +137,32 @@ features: []
     <img src="/Adobe Photoshop 2025.png" alt="QMK代碼">
     <p><br></p>
   </div>
-    <div class="Stool-item">
+  <div class="Stool-item">
     <img src="/STM32 ST-LINK Utility.png" alt="102整機截面分析">
     <p><br></p>
   </div>
-    <div class="Stool-item">
+  <div class="Stool-item">
     <img src="/nRF Connect for Desktop.png" alt="102整機截面分析">
     <p><br></p>
   </div>
-    <div class="Stool-item">
+  <div class="Stool-item">
     <img src="/串口设置5.13.1.png" alt="102整機截面分析">
     <p><br></p>
   </div>
-    <div class="Stool-item">
+  <div class="Stool-item">
     <img src="/Git Bash.png" alt="102整機截面分析">
     <p><br></p>
   </div>
-    <div class="Stool-item">
+  <div class="Stool-item">
     <img src="/J-Link RTT Viewer V7.94i.png" alt="102整機截面分析">
     <p><br></p>
   </div>
-    <div class="Stool-item">
+  <div class="Stool-item">
     <img src="/仿真电路模拟器.png" alt="102整機截面分析">
+    <p><br></p>
+  </div>
+  <div class="Stool-item">
+    <img src="/QMK MSYS.png" alt="QMK MSYS">
     <p><br></p>
   </div>
 
@@ -442,7 +448,7 @@ features: []
 /* ------------------------------ 其他應用工具样式 ------------------------------ */
 .Stool-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(93px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
