@@ -95,15 +95,15 @@ features: []
 
 <div class="Stool-grid">
   <div class="Stool-item">
-    <img src="/PixPin_2026-06-08_03-09-29.png" alt="Github">
+    <img src="/KeyShot Studio.png" alt="Github">
     <p><br></p>
   </div>
   <div class="Stool-item">
-    <img src="/AutoCAD.png" alt="嘉立創EDA原理圖">
+    <img src="/AutoCAD 2023.png" alt="嘉立創EDA原理圖">
     <p><br></p>
   </div>
   <div class="Stool-item">
-    <img src="/PS.png" alt="QMK代碼">
+    <img src="/Adobe Photoshop 2025.png" alt="QMK代碼">
     <p><br></p>
   </div>
     <div class="Stool-item">
@@ -127,7 +127,7 @@ features: []
     <p><br></p>
   </div>
     <div class="Stool-item">
-    <img src="/仿真电路模拟器 - 快捷方式.png" alt="102整機截面分析">
+    <img src="/仿真电路模拟器.png" alt="102整機截面分析">
     <p><br></p>
   </div>
 
