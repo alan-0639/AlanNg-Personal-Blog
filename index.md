@@ -350,7 +350,7 @@ features: []
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1.5rem;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 /* 单个工具卡片 */
