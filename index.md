@@ -81,7 +81,7 @@ features: []
     <!-- 下方行：小图标 + 文字 -->
     <div class="bottom-row">
       <img src="/GitHub software.png" alt="icon" class="bottom-icon">
-      <p class="bottom-text">Github<br>代码托管平台</p>
+      <p class="bottom-text">Github<br>代碼託管平臺</p>
     </div>
   </div>
   <div class="tool-item">
