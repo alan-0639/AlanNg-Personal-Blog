@@ -70,7 +70,7 @@ features: []
 </div>
 
 ##
-## 🛠 主要應用工具
+# 🛠 主要應用工具
 
 <!-- 新布局：左图 + 右 2x2 卡片网格 -->
 <div class="tool-layout">
