@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Alan Ng 個人博客"
   text: ""
-  tagline: 客制化機械鍵盤作品
+  tagline: 定制級機械鍵盤實錄作品
   image:
     src: /個人卡通頭像.png
     alt: Alan Ng
@@ -187,7 +187,7 @@ features: []
     <p>PCB設計專項技術證書電子檔<br>（嘉立創集團特批證書）</p>
   </div>
   <div class="cert-item">
-    <img src="/中國電子學會PCB證書.png" alt="PCB設計專項技術證">
+    <img src="/中國電子學會_PCB Layout工程師證書.png" alt="PCB設計專項技術證">
     <p>PCB設計專項技術證書<br>（中國電子學會認證）</p>
   </div>
     <div class="cert-item">
