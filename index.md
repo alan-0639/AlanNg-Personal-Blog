@@ -32,7 +32,7 @@ features: []
       <h3>🧠從0到1專案落地</h3>
       <div class="feature-tagline">概念 → 設計 → 驗證 → 成品</div>
       <div class="feature-desc">
-        獨立完成機械鍵盤專案：概念DFA、原理圖、PCB Layout、韌體編寫、3D建模、對接工廠（CNC/3D列印/鈑金）、整機FVT測試等。
+        獨立完成機械鍵盤專案：概念DFA、原理圖、PCB Layout、開源鍵盤代碼改寫、3D建模、對接工廠（CNC/3D打印/鈑金）、各部件及整機測試等。
       </div>
       <div class="tech-tags">
         <span>DFM/DFT/DFA</span>
@@ -175,20 +175,20 @@ features: []
 
 
 ##
-# 📜 PCB證書&學習歷程
+# 📜 部分PCB證書 & 培訓學習歷程
 
 <div class="cert-grid">
   <div class="cert-item">
     <img src="/考題-原理圖.png" alt="">
-    <p>模擬考考題-限時原理圖繪製<br>（工具：嘉立創EDA專業版）</p>
+    <p>培訓-模擬考考題-限時原理圖繪製<br>（工具：嘉立創EDA專業版）</p>
   </div>
   <div class="cert-item">
     <img src="/模擬考考題-PCB Layout.png" alt="">
-    <p>模擬考考題-限時PCB設計<br>（工具：嘉立創EDA專業版）</p>
+    <p>培訓-模擬考考題-限時PCB設計<br>（工具：嘉立創EDA專業版）</p>
   </div>
     <div class="cert-item">
     <img src="/模擬考考題-PCB 3D圖.png" alt="">
-    <p>模擬考考題-PCB 3D圖<br>（工具：嘉立創EDA專業版）</p>
+    <p>培訓-模擬考考題-PCB 3D圖<br>（工具：嘉立創EDA專業版）</p>
   </div>
   <div class="cert-item">
     <img src="/中國電子學會_PCB Layout工程師證書.png" alt="PCB設計專項技術證">
