@@ -175,24 +175,24 @@ features: []
 
 
 ##
-# 📜 部分證書展示
+# 📜 PCB證書&學習歷程
 
 <div class="cert-grid">
   <div class="cert-item">
-    <img src="" alt="">
-    <p><br></p>
+    <img src="/考題-原理圖.png" alt="">
+    <p>模擬考考題-限時原理圖繪製<br>（工具：嘉立創EDA專業版）</p>
   </div>
   <div class="cert-item">
-    <img src="/嘉立創pcb證書.png" alt="PCB設計專項技術證">
-    <p>PCB設計專項技術證書電子檔<br>（嘉立創集團特批證書）</p>
+    <img src="/模擬考考題-PCB Layout.png" alt="">
+    <p>模擬考考題-限時PCB設計<br>（工具：嘉立創EDA專業版）</p>
+  </div>
+    <div class="cert-item">
+    <img src="/模擬考考題-PCB 3D圖.png" alt="">
+    <p>模擬考考題-PCB 3D圖<br>（工具：嘉立創EDA專業版）</p>
   </div>
   <div class="cert-item">
     <img src="/中國電子學會_PCB Layout工程師證書.png" alt="PCB設計專項技術證">
-    <p>PCB設計專項技術證書<br>（中國電子學會認證）</p>
-  </div>
-    <div class="cert-item">
-    <img src="" alt="">
-    <p><br></p>
+    <p>PCB設計專項技術證書<br>（認證：中國電子學會）</p>
   </div>
 </div>
 
